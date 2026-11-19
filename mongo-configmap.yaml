@@ -1,0 +1,9 @@
+# Indentation is important in yaml files
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb-configmap
+data:
+  database-url: mongodb-service
+
